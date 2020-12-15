@@ -9,8 +9,9 @@ $font: 'Ubuntu', sans-serif;
 }
 
 .covid{
-    position: relative;
-
+    &-header{
+        position: relative;
+    }
     &__title{
         font-family: $font;
         font-style: normal;
@@ -32,46 +33,91 @@ $font: 'Ubuntu', sans-serif;
             text-transform: uppercase;
             color: #E72028;
         }
-        &_btn{
-            font-family: $font;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 46px;
-            line-height: 160%;
-            letter-spacing: 1px;
-            color: #FFFFFF;
-            background: #333333;
-            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.15);
-            border-radius: 4px;
-            padding: 3px 70px 3px 20px;
-            text-transform: uppercase;
-            position: relative;
-            &:after {
-                content: "";
-                position: absolute;
-                top: 0;
-                right: -63px;
-                border-style: solid;
-                border-width: 83px 65px 0 0;
-                border-color: #333333 transparent transparent transparent;
-            }
-            span{
-                color: #E72028;
-            }
-            a{
-                background: #2758C7;
-                box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.15);
-                border-radius: 4px;
-                &:after {
-                    content: "";
-                    position: absolute;
-                    top: 0;
-                    right: -63px;
-                    border-style: solid;
-                    border-width: 83px 65px 0 0;
-                    border-color: #333333 transparent transparent transparent;
+        &_box{
+            height: 100px;
+            width: 523px;
+            background-image: url(../images/btn-1.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-left: -8px;
+            &-text{
+                font-family: $font;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 46px;
+                letter-spacing: 1px;
+                color: #FFFFFF;
+                padding: 4px 100px 4px 29px;
+                text-transform: uppercase;
+                span{
+                    color: #E72028;
                 }
             }
+        }
+        &_btn{
+            width: 366px;
+            height: 100px;
+            background-image: url(../images/btn-2.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-left: -55px;
+            position: relative;
+            a{
+                font-family: $font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                letter-spacing: 0.01em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                text-decoration: none;
+                padding: 35px 88px 32px 100px;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+        &_section{
+            display: flex;
+        }
+    }
+    
+}
+
+.bg{
+    &__img{
+        &-1, &-2, &-3{
+            position: absolute;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &-1{
+            width: 231px;
+            height: 511px;
+            background-image: url(../images/bg-1.png);
+            top: 40px;
+            left: -9px;
+            z-index: 1;
+        }
+        &-2{
+            width: 926px;
+            height: 508px;
+            background-image: url(../images/bg-2.png);
+            top: 387px;
+            left: -9px;
+            z-index: 0;
+        }
+        &-3{
+            width: 774px;
+            height: 910px;
+            background-image: url(../images/bg-3.png);
+            top: -8px;
+            right: -8px;
         }
     }
 }
