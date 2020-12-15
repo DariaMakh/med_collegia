@@ -104,6 +104,23 @@ a {
   top: 0;
   right: 0;
 }
+.covid__title_btn_2 {
+  display: none;
+}
+.covid__title_btn_2 a {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #2758C7;
+  box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 20px 57px;
+}
 .covid__title_section {
   display: flex;
 }
@@ -180,8 +197,8 @@ a {
 }
 .covid-section__img-1 img {
   position: absolute;
-  width: 957px;
-  height: 612px;
+  width: 48%;
+  height: auto;
   object-fit: cover;
   object-position: center;
   top: -40px;
@@ -354,7 +371,7 @@ a {
 .covid-box__list-item {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 20px;
   line-height: 140%;
   color: #131313;

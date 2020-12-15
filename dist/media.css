@@ -18,3 +18,171 @@
     max-width: 1140px;
   }
 }
+@media (max-width: 1885px) {
+  .bg__img-1 img {
+    top: -221px;
+  }
+
+  .bg__img-3 {
+    width: 37%;
+  }
+
+  .covid-header {
+    min-height: 920px;
+  }
+}
+@media (max-width: 1700px) {
+  .covid-header {
+    min-height: 800px;
+  }
+}
+@media (max-width: 1500px) {
+  .covid-section__img-1 img {
+    width: 55%;
+    right: -20px;
+  }
+
+  .bg__img-1 {
+    width: 8%;
+  }
+  .bg__img-1 img {
+    top: -88px;
+  }
+
+  .bg__img-3 img {
+    transform: translateX(-90%);
+  }
+}
+@media (max-width: 1300px) {
+  .covid-header {
+    min-height: 685px;
+  }
+
+  .covid-section__img-1 img {
+    top: 20px;
+    width: 52%;
+  }
+
+  .bg__img-1 img {
+    top: -50px;
+  }
+}
+@media (max-width: 1130px) {
+  .covid-header {
+    min-height: 620px;
+  }
+
+  .bg__img-3 img {
+    top: -185px;
+    transform: translateX(-62%);
+  }
+
+  .covid-section__img-2 {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .margin {
+    margin-top: 63%;
+  }
+
+  .covid-section__row {
+    flex-direction: column-reverse;
+  }
+
+  .covid-section__img-1 img {
+    top: 100%;
+    width: 100%;
+  }
+
+  .covid-section__img-2 {
+    margin: 0 auto;
+  }
+
+  .covid-section__row .covid-section__box {
+    width: 100%;
+  }
+
+  .bg__img-3 {
+    width: 40%;
+  }
+  .bg__img-3 img {
+    transform: translateX(-100%);
+    top: -322px;
+  }
+
+  .bg__img-1 {
+    display: none;
+  }
+
+  .bg__img-2 {
+    width: 63%;
+  }
+
+  .covid-header {
+    min-height: 737px;
+  }
+
+  .covid-box__row {
+    flex-direction: column;
+    align-items: inherit;
+  }
+
+  .covid-box__section {
+    width: 100%;
+  }
+
+  .covid-box__list-row {
+    display: block;
+    margin-bottom: 35px;
+  }
+
+  .covid-price {
+    display: block;
+  }
+
+  .covid-box__list-text {
+    margin-top: -30px;
+  }
+
+  .covid-box {
+    margin-bottom: 40px;
+  }
+
+  .covid__title_btn {
+    display: none;
+  }
+
+  .covid__title_btn_2 {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .bg__img-3 img {
+    transform: translateX(-60%);
+    top: -214px;
+  }
+
+  .covid-header {
+    min-height: 667px;
+  }
+
+  .covid-box__section {
+    flex-direction: column;
+    align-items: inherit;
+  }
+
+  .covid-box__section_text {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .covid-box__btn {
+    margin-left: 1px;
+  }
+}
+@media (max-width: 628px) {
+  .covid-header {
+    min-height: 650px;
+  }
+}
